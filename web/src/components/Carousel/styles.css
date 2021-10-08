@@ -9,6 +9,17 @@
   justify-content: center;
 }
 
+.img-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-img {
+  width: 100%;
+  max-width: 800px;
+}
+
 .info-container{
   display: flex;
   justify-content: center;

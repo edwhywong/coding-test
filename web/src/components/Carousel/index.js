@@ -60,7 +60,13 @@ function Carousel({
             >
               {"<"}
             </Button>
-            <img src={photoList[currentIdx]} alt={"carousel"} height={height} />
+            <div className="img-container">
+              <img
+                src={photoList[currentIdx]}
+                alt={"carousel"}
+                className="carousel-img"
+              />
+            </div>
             <Button
               variant="text"
               onClick={(_e) => {
